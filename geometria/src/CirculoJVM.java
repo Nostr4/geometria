@@ -1,10 +1,10 @@
-//* Author: JuanMa Vázquez
-public class Circulo extends FiguraGeometrica {
+// Author: JuanMa Vázquez
+public class CirculoJVM extends FiguraGeometricaJVM {
 	private double radio;
 	//Constante pi
 	static final double PI = 3.1416;
 	
-	public Circulo(double r, String tipoFigura) {
+	public CirculoJVM(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
 	}
