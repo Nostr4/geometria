@@ -1,4 +1,4 @@
-
+//* Author: JuanMa Vázquez
 public class Circulo extends FiguraGeometrica {
 	private double radio;
 	//Constante pi
