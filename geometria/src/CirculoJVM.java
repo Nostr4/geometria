@@ -7,6 +7,10 @@ public class CirculoJVM extends FiguraGeometricaJVM {
 	public CirculoJVM(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+		if (radio<0) {
+			radio= radio-(-radio);
+			radio= radio-(-radio);
+		}
 	}
 
 	@Override
