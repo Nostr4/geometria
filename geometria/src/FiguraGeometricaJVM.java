@@ -11,6 +11,11 @@ public abstract class FiguraGeometricaJVM {
 	public abstract double area();
 	
 	public abstract double perimetro();
+	
+	public double semiPerimetro() {
+		return this.perimetro() / 2;
+	}
+	
 
 	public String getTipoFigura() {
 		return tipoFigura;
